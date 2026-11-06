@@ -1,0 +1,16 @@
+{
+  "frame_width": 1000,
+  "frame_height": 1000,
+  "alpha": 0.25,
+  "sequence": [
+    {"id": 7, "center_x": 500, "height": 400, "timestamp_ns": 1000000000},
+    {"id": 7, "center_x": 700, "height": 500, "timestamp_ns": 1033333333},
+    {"id": 7, "center_x": 540, "height": 410, "timestamp_ns": 1066666666}
+  ],
+  "expected": {
+    "horizontal_errors": [0.0, 0.1, 0.095],
+    "scale_errors": [0.0, 0.0625, 0.053125],
+    "rotation": ["STOP", "RIGHT", "RIGHT"],
+    "distance": ["STOP", "STOP", "STOP"]
+  }
+}

@@ -1,0 +1,11 @@
+package com.robocam.onboardcamera.contracts
+
+interface Detection
+interface Tracker
+interface TargetSelector
+interface TrackingController
+interface RecordingController
+interface WebRtcController
+interface Esp32WebSocket
+interface CommandRouter
+interface LifecycleCoordinator
